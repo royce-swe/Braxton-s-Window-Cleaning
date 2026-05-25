@@ -23,7 +23,7 @@ function About() {
             Hi, I'm Braxton — and I love clean windows.
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300">
-            What started as a side hustle washing windows for friends and family has grown into Lake Mary's go-to local cleaning service. Same hands-on care, just a bigger ladder.
+            What started as a side hustle washing windows for friends and family, has grown into many Lake Mary homeowners go-to local cleaning service. Same hands-on care, just a bigger ladder.
           </p>
         </div>
       </section>
@@ -35,10 +35,10 @@ function About() {
         <div>
           <h2 className="text-3xl font-bold">A local business with a sky-high standard.</h2>
           <p className="mt-4 text-muted-foreground">
-            I built Braxton's Window Cleaning on a simple promise: do excellent work, show up when we say we will, and leave every home brighter than we found it. Today our small team serves homeowners and businesses across Lake Mary and the surrounding Orlando area — and every customer still gets that personal touch.
+            I built my window cleaning business on a simple promise: do great work, show up when we say we will, and leave every home better than we found it. Today our small team serves homeowners and businesses across Lake Mary and the surrounding Orlando area, and every customer gets that personal touch.
           </p>
           <p className="mt-4 text-muted-foreground">
-            We're fully insured, eco-conscious in the products we use, and obsessed with a streak-free finish. If you can see a smudge, we're not done.
+            We're eco-conscious in the products we use and obsessed with making your windows look brand new.
           </p>
           <Link to="/contact" className="mt-6 inline-block rounded-full bg-sky-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-sky-700">
             Work With Us

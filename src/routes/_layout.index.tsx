@@ -20,7 +20,7 @@ const stats = [
 const services = [
   { icon: Home, title: "Residential", img: residential, desc: "Interior, exterior, screens, tracks, and sills — every pane spotless." },
   { icon: Building2, title: "Commercial", img: commercial, desc: "Storefronts and offices kept inviting with reliable scheduled cleanings." },
-  { icon: Sparkles, title: "Add-Ons", img: pressure, desc: "Pressure washing, hard water removal, gutter cleaning, and mirrors." },
+  { icon: Sparkles, title: "Add-Ons", img: pressure, desc: "Screen cleaning, cleaning plans and hard stain removal" },
 ];
 
 const why = [
