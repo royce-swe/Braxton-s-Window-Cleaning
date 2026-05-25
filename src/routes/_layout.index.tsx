@@ -11,9 +11,9 @@ export const Route = createFileRoute("/_layout/")({
 });
 
 const stats = [
-  { v: "750+", l: "Happy Customers" },
-  { v: "5★", l: "Google Rating" },
-  { v: "100%", l: "Satisfaction" },
+  { v: "50+", l: "Happy Customers" },
+  { v: "5★", l: "Customer Ratings" },
+  { v: "100%", l: "Satisfaction Rate" },
   { v: "Lake Mary", l: "Locally Owned" },
 ];
 
