@@ -1,6 +1,7 @@
 import { Link, Outlet } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Sparkles, Menu, X } from "lucide-react";
+import { Phone, Mail, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoImg from "../assets/about.jpg";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -22,9 +23,7 @@ export function SiteLayout() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 font-semibold">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-sky-600 text-white">
-              <Sparkles className="h-5 w-5" />
-            </span>
+            <img src={logoImg} alt="Braxton's Window Cleaning logo" className="h-9 w-9 rounded-lg object-cover" />
             <span className="leading-tight">
               <span className="block text-sm font-bold tracking-tight">Braxton's</span>
               <span className="block text-[11px] uppercase tracking-widest text-muted-foreground">
@@ -93,9 +92,7 @@ export function SiteLayout() {
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-4">
           <div>
             <div className="flex items-center gap-2 text-white">
-              <span className="grid h-9 w-9 place-items-center rounded-lg bg-sky-600">
-                <Sparkles className="h-5 w-5" />
-              </span>
+              <img src={logoImg} alt="Braxton's Window Cleaning logo" className="h-9 w-9 rounded-lg object-cover" />
               <span className="font-bold">Braxton's Window Cleaning</span>
             </div>
             <p className="mt-4 text-sm text-slate-400">

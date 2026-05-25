@@ -8,12 +8,12 @@ export const Route = createFileRoute("/_layout/contact")({
 });
 
 const faqs = [
-  { q: "How much does window cleaning cost?", a: "Most homes fall between $150 and $400 depending on size, number of panes, and add-ons. We give free, no-obligation quotes — usually within an hour." },
-  { q: "How often should I clean my windows?", a: "We recommend twice a year for most homes, and monthly or quarterly for commercial storefronts. Heavy pollen or coastal areas may want a third visit." },
-  { q: "Are you insured?", a: "Yes — Braxton's carries full general liability insurance. We can email a certificate of insurance on request." },
+  { q: "How much does window cleaning cost?", a: "We price homes on a case by case basis. This will depend on the size of the home, number of panes, and add-ons. We give free, no-obligation quotes," },
+  { q: "How often should I clean my windows?", a: "We recommend thrice a year for most homes, and monthly or quarterly for commercial storefronts. Heavy pollen or coastal areas may want an additional visit." },
+  // { q: "Are you insured?", a: "Yes — Braxton's carries full general liability insurance. We can email a certificate of insurance on request." },
   { q: "What areas do you serve?", a: "Lake Mary, Sanford, Longwood, Heathrow, Winter Springs, Oviedo, Winter Park, Orlando, and most surrounding communities. Not sure? Just ask." },
-  { q: "Do I need to be home?", a: "Not for exterior cleanings. For interior work we'll coordinate a time that works for you." },
-  { q: "What if it rains right after?", a: "Properly cleaned windows don't streak from rain. If you're not happy with the result, we'll come back and re-clean — guaranteed." },
+  { q: "Do I need to be home?", a: "No we can clean your windows at anytime, however if you would like to be home we'll coordinate a time that works for you." },
+  // { q: "What if it rains right after?", a: "Properly cleaned windows don't streak from rain. If you're not happy with the result, we'll come back and re-clean — guaranteed." },
 ];
 
 function Contact() {
