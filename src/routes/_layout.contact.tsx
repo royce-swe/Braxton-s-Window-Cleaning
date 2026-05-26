@@ -50,6 +50,35 @@ function Contact() {
             <form
               onSubmit={(e) => {
                 e.preventDefault();
+                const form = e.currentTarget;
+                const get = (name: string) =>
+                  (form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement)?.value ?? "";
+
+                const name = get("name");
+                const phone = get("phone");
+                const email = get("email");
+                const address = get("address");
+                const service = get("service");
+                const details = get("details");
+
+                const subject = `Quote Request from ${name}`;
+                const body = [
+                  `Name: ${name}`,
+                  `Phone: ${phone}`,
+                  `Email: ${email}`,
+                  address ? `Address: ${address}` : "",
+                  `Service: ${service}`,
+                  details ? `\nProject Details:\n${details}` : "",
+                ]
+                  .filter(Boolean)
+                  .join("\n");
+
+                window.location.href =
+                  `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                // window.open(
+                //   `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+                //   "_self",
+                // );
                 setSent(true);
               }}
               className="rounded-2xl border border-border bg-card p-6 shadow-sm md:p-8"
@@ -61,7 +90,7 @@ function Contact() {
                 <Field label="Address" name="address" className="md:col-span-2" />
                 <div className="md:col-span-2">
                   <label className="text-sm font-medium">Service interested in</label>
-                  <select className="mt-1 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
+                  <select name="service" className="mt-1 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
                     <option>Residential window cleaning</option>
                     <option>Commercial window cleaning</option>
                     <option>Solar panel cleaning</option>
@@ -72,6 +101,7 @@ function Contact() {
                 <div className="md:col-span-2">
                   <label className="text-sm font-medium">Tell us about your project</label>
                   <textarea
+                    name="details"
                     rows={4}
                     className="mt-1 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                     placeholder="Number of stories, approximate window count, anything special…"
