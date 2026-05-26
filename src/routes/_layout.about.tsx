@@ -20,22 +20,22 @@ function About() {
         <div className="mx-auto max-w-6xl px-4 py-20">
           <p className="text-sm font-semibold uppercase tracking-widest text-sky-300">About</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-bold md:text-5xl">
-            Hi, I'm Braxton — and I love clean windows.
+            We're CRP Exterior — and we love clean windows.
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300">
-            What started as a side hustle washing windows for friends and family, has grown into many Lake Mary homeowners go-to local cleaning service. Same hands-on care, just a bigger ladder.
+            What started as a side hustle washing windows for friends and family has grown into many Lake Mary homeowners' go-to local cleaning service. Same hands-on care, just a bigger ladder.
           </p>
         </div>
       </section>
 
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 md:grid-cols-2">
         <div className="overflow-hidden rounded-2xl border border-border shadow-sm">
-          <img src={about} alt="Braxton with the company van" loading="lazy" width={1024} height={1024} className="h-full w-full object-cover" />
+          <img src={about} alt="The CRP Exterior team" loading="lazy" width={1024} height={1024} className="h-full w-full object-cover" />
         </div>
         <div>
           <h2 className="text-3xl font-bold">A local business with a sky-high standard.</h2>
           <p className="mt-4 text-muted-foreground">
-            I built my window cleaning business on a simple promise: do great work, show up when we say we will, and leave every home better than we found it. Today our small team serves homeowners and businesses across Lake Mary and the surrounding Orlando area, and every customer gets that personal touch.
+            We built our cleaning business on a simple promise: do great work, show up when we say we will, and leave every home better than we found it. Today our team serves homeowners and businesses across Lake Mary and the surrounding Orlando area, and every customer gets that personal touch.
           </p>
           <p className="mt-4 text-muted-foreground">
             We're eco-conscious in the products we use and obsessed with making your windows look brand new.

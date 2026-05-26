@@ -18,14 +18,14 @@ const stats = [
 ];
 
 const services = [
-  { icon: Home, title: "Residential", img: residential, desc: "Interior, exterior, screens, tracks, and sills — every pane spotless." },
+  { icon: Home, title: "Residential", img: residential, desc: "Interior & exterior windows, screens, tracks, and sills — every pane spotless." },
   { icon: Building2, title: "Commercial", img: commercial, desc: "Storefronts and offices kept inviting with reliable scheduled cleanings." },
-  { icon: Sparkles, title: "Add-Ons", img: pressure, desc: "Screen cleaning, cleaning plans and hard stain removal" },
+  { icon: Sparkles, title: "Add-Ons", img: pressure, desc: "Screen cleaning, solar pannel cleaning,cleaning plans and hard stain removal" },
 ];
 
 const why = [
   { icon: Shield, t: "Fully Insured", d: "Full liability coverage on every job — total peace of mind." },
-  { icon: Star, t: "5-Star Rated", d: "Hundreds of Lake Mary homeowners trust the Braxton's name." },
+  { icon: Star, t: "5-Star Rated", d: "Hundreds of Lake Mary homeowners trust the CRP Exterior name." },
   { icon: Clock, t: "On-Time, Every Time", d: "We respect your schedule. Punctual, tidy, professional." },
   { icon: CheckCircle2, t: "100% Satisfaction", d: "Not happy? We'll come back and make it right — guaranteed." },
   { icon: Leaf, t: "Eco-Friendly", d: "Safe for your family, pets, plants, and the environment." },
@@ -33,7 +33,7 @@ const why = [
 ];
 
 const testimonials = [
-  { q: "Braxton and his team made our windows look brand new. Friendly, fast, and worth every penny.", n: "Megan H., Longwood" },
+  { q: "The CRP team made our windows look brand new. Friendly, fast, and worth every penny.", n: "Megan H., Longwood" },
   { q: "Our storefront has never been cleaner. Customers actually noticed. Highly recommend!", n: "Marcus T., Lake Mary" },
   { q: "Honest pricing and incredible attention to detail. Already booked them for next season.", n: "Priya S., Winter Springs" },
   { q: "On time, courteous, and the results speak for themselves. Best in town.", n: "Daniel R., Sanford" },
@@ -122,7 +122,7 @@ function Home_() {
       <section className="bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-20">
           <div className="text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">Why Choose Braxton's?</h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Why Choose CRP Exterior?</h2>
             <p className="mt-3 text-muted-foreground">We're more than a cleaning company — we're your neighbors.</p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-3">

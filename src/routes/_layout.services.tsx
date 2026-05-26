@@ -1,9 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Check, Home, Building2, Sparkles, Droplets, Wind, Layers } from "lucide-react";
+import { Check, Home, Building2, Sparkles, Droplets, Wind, Layers, SolarPanel } from "lucide-react";
 import residential from "../assets/residential.jpg";
 import commercial from "../assets/commercial.jpg";
 import pressure from "../assets/pressure.jpg";
 import screen from "../assets/screen.jpg";
+import solar from "../assets/solar.jpg";
 
 export const Route = createFileRoute("/_layout/services")({
   component: Services,
@@ -34,6 +35,16 @@ const services = [
     ],
   },
   {
+    icon: SolarPanel,
+    title: "Solar Panel Cleaning",
+    img: solar,
+    bullets: [
+      "Remove dust, dirt, and grime",
+      "Restore panel efficiency",
+      "Streak-free rinse",
+    ],
+  },
+  {
     icon: Droplets,
     title: "Screen Cleaning",
     img: screen,
@@ -49,7 +60,7 @@ const services = [
 const extras = [
   { icon: Sparkles, t: "Hard Water Stain Removal", d: "Restore foggy, mineral-stained glass to a clear shine." },
   { icon: Wind, t: "Screen Cleaning", d: "Gentle deep-clean to keep your view sharp and bug-free." },
-  { icon: Layers, t: "Mold and Mildew Removal", d: "Remove mold and mildew leaving your windows looking brand new." },
+  { icon: Layers, t: "Solar Pannel Cleanings", d: "Restore your optimal sunlight absorption, boosting your energy production by over 30%." },
   { icon: Droplets, t: "Planned Cleanings", d: "Inquire about our cleaning plans to make sure you never worry about your windows again." },
 ];
 
@@ -63,7 +74,7 @@ function Services() {
             Everything you need for spotless glass — inside and out.
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300">
-            From a one-time refresh to ongoing care, Braxton's offers professional cleaning services tailored to homes and businesses across Lake Mary and the greater Orlando area.
+            From a one-time refresh to ongoing care, CRP Exterior offers professional cleaning services tailored to homes and businesses across Lake Mary and the greater Orlando area.
           </p>
         </div>
       </section>

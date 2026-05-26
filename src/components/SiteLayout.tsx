@@ -13,7 +13,7 @@ const nav = [
 
 export const PHONE_DISPLAY = "(407) 686-0741";
 export const PHONE_HREF = "tel:+14076860741";
-export const EMAIL = "contact@braxtonswindows.com";
+export const EMAIL = "pricebraxton710@gmail.com";
 export const CITY = "Lake Mary, FL";
 
 export function SiteLayout() {
@@ -23,11 +23,11 @@ export function SiteLayout() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 font-semibold">
-            <img src={logoImg} alt="Braxton's Window Cleaning logo" className="h-9 w-9 rounded-lg object-cover" />
+            <img src={logoImg} alt="CRP Exterior logo" className="h-9 w-9 rounded-lg object-cover" />
             <span className="leading-tight">
-              <span className="block text-sm font-bold tracking-tight">Braxton's</span>
+              <span className="block text-sm font-bold tracking-tight">CRP</span>
               <span className="block text-[11px] uppercase tracking-widest text-muted-foreground">
-                Window Cleaning
+                Exterior
               </span>
             </span>
           </Link>
@@ -92,8 +92,8 @@ export function SiteLayout() {
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-4">
           <div>
             <div className="flex items-center gap-2 text-white">
-              <img src={logoImg} alt="Braxton's Window Cleaning logo" className="h-9 w-9 rounded-lg object-cover" />
-              <span className="font-bold">Braxton's Window Cleaning</span>
+              <img src={logoImg} alt="CRP Exterior logo" className="h-9 w-9 rounded-lg object-cover" />
+              <span className="font-bold">CRP Exterior</span>
             </div>
             <p className="mt-4 text-sm text-slate-400">
               Streak-free shine for homes and businesses across {CITY} and surrounding areas.
@@ -136,7 +136,7 @@ export function SiteLayout() {
         </div>
         <div className="border-t border-slate-800">
           <div className="mx-auto max-w-6xl px-4 py-5 text-center text-xs text-slate-500">
-            © {new Date().getFullYear()} Braxton's Window Cleaning. All rights reserved.
+            © {new Date().getFullYear()} CRP Exterior. All rights reserved.
           </div>
         </div>
       </footer>

@@ -64,9 +64,8 @@ function Contact() {
                   <select className="mt-1 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
                     <option>Residential window cleaning</option>
                     <option>Commercial window cleaning</option>
-                    <option>Pressure washing</option>
-                    <option>Hard water removal</option>
-                    <option>Gutter cleaning</option>
+                    <option>Solar panel cleaning</option>
+                    <option>Screen cleaning</option>
                     <option>Other</option>
                   </select>
                 </div>

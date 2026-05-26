@@ -26,7 +26,7 @@ function Gallery() {
         <div className="mx-auto max-w-6xl px-4 py-20">
           <p className="text-sm font-semibold uppercase tracking-widest text-sky-300">Gallery</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-bold md:text-5xl">
-            See the Braxton's difference.
+            See the CRP Exterior difference.
           </h1>
           <p className="mt-4 max-w-2xl text-slate-300">
             Before & afters and recent jobs from across Lake Mary and the greater Orlando area. Drag the slider in your mind — the difference speaks for itself.

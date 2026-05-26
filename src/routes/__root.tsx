@@ -66,9 +66,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Braxton's Window Cleaning | Streak-Free Shine in Lake Mary, FL" },
+      { title: "CRP Exterior | Streak-Free Shine" },
       { name: "description", content: "Professional residential & commercial window cleaning in Lake Mary, FL. Streak-free, fully insured, satisfaction guaranteed. Get a free quote today." },
-      { property: "og:title", content: "Braxton's Window Cleaning" },
+      { property: "og:title", content: "CRP Exterior" },
       { property: "og:description", content: "Crystal clear windows for homes and businesses in Lake Mary, FL." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
