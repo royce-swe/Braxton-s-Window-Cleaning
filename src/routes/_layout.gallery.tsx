@@ -7,6 +7,8 @@ import residential from "../assets/residential.jpg";
 import commercial from "../assets/commercial.jpg";
 import pressure from "../assets/pressure.jpg";
 import hero from "../assets/hero.jpg";
+import solarBefore from "../assets/solarBefore.jpg";
+import solarAfter from "../assets/solarAfter.jpg";
 
 export const Route = createFileRoute("/_layout/gallery")({
   component: Gallery,
@@ -15,6 +17,7 @@ export const Route = createFileRoute("/_layout/gallery")({
 const beforeAfter = [
   { before: before1, after: after1, label: "Dusty exterior pane" },
   { before: before2, after: after2, label: "Dirty exterior window" },
+  { before: solarBefore, after: solarAfter, label: "Dirty solar panels" },
 ];
 
 const gallery = [hero, residential, commercial, pressure];
