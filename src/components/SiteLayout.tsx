@@ -13,7 +13,7 @@ const nav = [
 
 export const PHONE_DISPLAY = "(407) 686-0741";
 export const PHONE_HREF = "tel:+14076860741";
-export const EMAIL = "pricebraxton710@gmail.com";
+export const EMAIL = "crpexterior@gmail.com";
 export const CITY = "Lake Mary, FL";
 
 export function SiteLayout() {
